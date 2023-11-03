@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h2>Request a Quote</h2>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    <p>First name <span style="color: red;">*</span></p>
+                    <input type="text" name="firstname" id="" placeholder="Your First Name">
+                </td>
+                <td>
+                    <p>Last name <span style="color: red;">*</span></p>
+                    <input type="text" name="lastname" id="" placeholder="Your Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Contact number <span style="color: red;">*</span></p>
+                    <input type="tel" name="contact_number" id="" placeholder="Your Contact Number">
+                </td>
+                <td>
+                    <p>Email <span style="color: red;">*</span></p>
+                    <input type="email" name="email" id="" placeholder="Your Email Address">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>State <span style="color: red;">*</span></p>
+                     <select name="state" id="">
+                      <option value="select_state">Please select your state</option>
+                    <option value="act">ACT</option>
+                    <option value="nsw">NSW</option>
+                    <option value="nt">NT</option>
+                    <option value="qld">QLD</option>
+                    <option value="sa">SA</option>
+                    <option value="tas">TAS</option>
+                    <option value="vic">VIC</option>
+                    <option value="wa">WA</option>   
+                </select>
+                                  
+                 </td>
+                 <td>
+                    <p>Postcode <span style="color: red;">*</span></p>
+                    <input type="text" name="postcode" id="" placeholder=" Your Postcode"> 
+                </td>
+            </tr></table>
+            <br>
+            <hr>
+            <table>
+            <tr>
+                <td>
+                    <p><b>I'm</b></p>
+                    <input type="radio" name="customer" id="" value="new_customer">New Customer
+                    <input type="radio" name="customer" id="" value="existing_customer">Existiong Customer
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><b>I need a solution for my</b></p>
+                    <input type="radio" name="job" id="" value="bussiness">Bussiness
+                    <input type="radio" name="job" id="" value="home">Home
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="width: 100%;">
+                    <p><b>My Industry is</b></p>
+                    <select name="industry" id="" style="width: 100%;">
+                        <option value="select_industry">Please select</option>
+                    <option value="automotive">Automotive</option>
+                    <option value="construction">Construction/Engineering</option>
+                    <option value="energy">Energy/Utilities</option>
+                    <option value="government">Government and Defence</option>
+                    <option value="hospitality">Hospitality</option>
+                    <option value="logistic">Logistic</option>
+                    <option value="manufacturing">Manufacturing</option>
+                    <option value="medical">Medical</option>
+                    <option value="mining">Mining</option> 
+                    <option value="property">Property/Facilities Management</option> 
+                    <option value="retail">Retail</option> 
+                    </select>
+                </td>
+           </table>
+           <br>
+        </tr>
+            <a href="">Looking for a skip? Browse our skips including sizes and prices here.</a>
+            <p><b>The services I'm interested in are</b></p>
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="skip_bins" id="" value="skip">Skip bins and steel cages
+                    </td>
+                    <td>
+                        <input type="checkbox" name="organic" id="" value="organic">Organic and food recycling
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td>
+                        <input type="checkbox" name="health" id="" value="health">Health service collections
+                    </td>
+                    <td>
+                        <input type="checkbox" name="grease" id="" value="grease">Grease trap servicing
+                    </td>
+                </tr>
+              
+                <tr>
+                    <td>
+                        <input type="checkbox" name="septic" id="" value="septic">Septic waste
+                    </td>
+                    <td>
+                        <input type="checkbox" name="general" id="" value="general">General waste and recycling services
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="product" id="" value="product">Product destruction
+                    </td>
+                    <td>
+                        <input type="checkbox" name="bathroom" id="" value="bathroom">Bathroom and hygiene services
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="liquid" id="" value="liquid">Liquid waste
+                    </td>
+                    <td>
+                        <input type="checkbox" name="waste_oil" id="" value="waste_oil">Waste oil, parts washers and wordshop waste solution
+                    </td>
+                </tr>
+            </table>
+            <p><b>How did you hear about us?</b></p>
+            <table>
+                <tr>
+                    <td colspan="2" style="width: 100%;">
+                        <select name="referral" id="">
+                            <option value="referral">Referral</option>
+                          <option value="intenet_search">Internet Search</option>
+                          <option value="radio">Radio</option>
+                          <option value="print">Print advert</option>
+                          <option value="word">Word of mouth</option>
+                          <option value="other">Other</option>
+                      </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <p><b>Anyting else we need to know?</b></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea name="message" id="" cols="50" rows="10">Write your message</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <input type="checkbox" name="consent" id="" value="consent">I consent to receive Cleanaway's marketing communications ( including offers, service and  product updates,and events).
+                </td>
+            </tr>
+            </table>
+            <table border="1">
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="robot" id="" value="robot">I'm not robot
+                          </td>
+                         </tr>
+            </table>
+            <p>By clicking submit, you consent to Cleanaway Waste Management Pty Ltd, its related entities and their agencies <br>
+                using your name and contact details for the relevant purpose as set out above in acoordance with Cleanaway <br>
+                 Waste Management <span style="color:blue">Terms</span> and <span style="color:blue">Privacy Policy</span>.Cleanaway compiles with the Ausralian Privicy Principles and <br>
+                 respects your privacy; you can opt out from receiving communications at any time.</p>
+                 <table>
+                    <tr>
+                        <td>
+                            <input style="color: green;" type="button" name="submit" id="" value="submit">
+                        </td>
+                    </tr>
+                 </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="accordion" id="myaccordion">
+                <div class="accordion-item">
+                    <h class="accordion-header">
+                        <button class="accordion-button" data-bs-target="#vision" data-bs-toggle="collapse">
+                            Vision
+                        </button>
+                    </h>
+                    <div class="accordion-collapse collapse show" id="vision" data-bs-parent="#myaccordion">
+                        <div class="accordion-body">
+                            <h2>Vision</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet quisquam, facilis minima dicta odio esse eveniet, assumenda ipsam nam nostrum eligendi magnam! Voluptatem laboriosam fugiat beatae corrupti fuga architecto ut!</p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="accordion-item">
+                    <h class="accordion-header">
+                        <button class="accordion-button" data-bs-target="#mission" data-bs-toggle="collapse">
+                            Mission
+                        </button>
+                    </h>
+                    <div class="accordion-collapse collapse" id="mission" data-bs-parent="#myaccordion">
+                        <div class="accordion-body">
+                            <h2>Mission</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet quisquam, facilis minima dicta odio esse eveniet, assumenda ipsam nam nostrum eligendi magnam! Voluptatem laboriosam fugiat beatae corrupti fuga architecto ut!</p>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="accordion-item">
+                    <h class="accordion-header">
+                        <button class="accordion-button" data-bs-target="#section" data-bs-toggle="collapse">
+                            Section
+                        </button>
+                    </h>
+                    <div class="accordion-collapse collapse" id="section" data-bs-parent="#myaccordion">
+                        <div class="accordion-body">
+                            <h2>Section</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet quisquam, facilis minima dicta odio esse eveniet, assumenda ipsam nam nostrum eligendi magnam! Voluptatem laboriosam fugiat beatae corrupti fuga architecto ut!</p>
+                        </div>
+                    </div>
+                       
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 d-flex">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#tab1" class="nav-link active " data-bs-toggle="tab">Program 1</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tab2" class="nav-link" data-bs-toggle="tab">Program 2</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tab3" class="nav-link" data-bs-toggle="tab">Program 3</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="tab1">
+                    <h2>Program 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas enim vel nemo molestiae aliquid cumque magnam alias sed nisi ullam neque illum, facilis architecto at amet odit molestias, nulla non.</p>
+                </div>
+                <div class="tab-pane fade" id="tab2">
+                    <h2>Program 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas enim vel nemo molestiae aliquid cumque magnam alias sed nisi ullam neque illum, facilis architecto at amet odit molestias, nulla non.</p>
+                </div>
+                <div class="tab-pane fade" id="tab3">
+                    <h2>Program 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas enim vel nemo molestiae aliquid cumque magnam alias sed nisi ullam neque illum, facilis architecto at amet odit molestias, nulla non.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <button class="btn btn-primary" data-bs-target="#mymodal" data-bs-toggle="modal">Register</button>
+        </div>
+    </div>
+</div>
+<div class="modal" id="mymodal" data-bs-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Register</h2>
+                <button class="btn btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, eveniet tenetur facilis, neque veritatis quos dolorum repudiandae error odit, ducimus tempora similique soluta est? Incidunt expedita vel quasi explicabo facere.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.div1{
+    background-color: red;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+.div2{
+    background-color: green;
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin: 10px 10px 10px 0;
+    /* top right bottom left, margin-top:10px;*/
+}
+.div3{
+    float: left;
+    border: 2px black solid; /* size, style,color */
+    padding: 20px;
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+}
+.box{
+clear: both;
+}
+.inner-box{
+    padding: 20px;
+}

@@ -1,0 +1,21 @@
+.navbar-expand-lg{
+    background-color:palevioletred;
+}
+.nav-item:hover{
+    background-color:black;
+}
+.nav-item:hover .nav-link{
+    color:yellow;
+}
+#input{
+    margin-left: 90%;
+    width: 300px;
+    height: 35px;
+    border: 0;
+    margin-top: 20px;
+}
+.cap1{
+    color: black;
+    font-size:19px;
+    font-family: Playfair Display;
+}
